@@ -201,14 +201,17 @@ def page3():
     body {
         font-family: 'EB Garamond', serif;
         font-size: 20px;
+        color: black;
     }
     h2 {
         font-family: 'EB Garamond', serif;
         font-size: 26px;
+        color: black;
     }
     h3 {
         font-family: 'EB Garamond', serif;
         font-size: 22px;
+        color: black;
     }
     div.st-emotion-cache-0.e1f1d6gn0 {
         background-color: #EEEEEE;
@@ -224,7 +227,7 @@ def page3():
     st.write(
         "This section allows user to analyze and forecast export data using ARIMA models. Select the column to forecast and set the forecast parameters.")
     
-    file_path = 'C:/Users/ngwaw/Downloads/A232 SQIT3073/GA/MalaysiaExports.csv'
+    file_path = 'C:/Users/ngwaw/OneDrive/Desktop/SEM 4/SQIT3073/PythonicMinds/GA/MalaysiaExports.csv'
 
     df = load_data(file_path)
     if df is not None:

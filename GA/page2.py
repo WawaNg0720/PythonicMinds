@@ -4,7 +4,7 @@ import plotly.express as px
 
 def page2():
     # Load dataset
-    df = pd.read_csv('C:/Users/ngwaw/Downloads/A232 SQIT3073/GA/MalaysiaExports.csv')
+    df = pd.read_csv('C:/Users/ngwaw/OneDrive/Desktop/SEM 4/SQIT3073/PythonicMinds/GA/MalaysiaExports.csv')
 
     # Header and styles
     st.markdown("<h1 style='text-align: center; color: black;'>Future Horizons: Predicting Malaysia's Export Trends with ARIMA</h1>", unsafe_allow_html=True)
@@ -14,14 +14,17 @@ def page2():
     body {
         font-family: 'EB Garamond', serif;
         font-size: 20px;
+        color: black;
     }
     h2 {
         font-family: 'EB Garamond', serif;
         font-size: 26px;
+        color: black;
     }
     h3 {
         font-family: 'EB Garamond', serif;
         font-size: 22px;
+        color: black;
     }
     div.st-emotion-cache-ocqkz7.e1f1d6gn5 {
         background-color: #EEEEEE;

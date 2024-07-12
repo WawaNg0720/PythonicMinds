@@ -11,14 +11,17 @@ def page1():
     .custom-body {
         font-family: 'EB Garamond', serif;
         font-size: 20px;
+        color: black;  
     }
     .custom-h2 {
         font-family: 'EB Garamond', serif;
         font-size: 26px;
+        color: black;  
     }
     .custom-h3 {
         font-family: 'EB Garamond', serif;
         font-size: 22px;
+        color: black;  
     }
     .custom-div {
         background-color: #EEEEEE;
