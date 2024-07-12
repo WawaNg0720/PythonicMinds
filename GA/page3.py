@@ -201,17 +201,14 @@ def page3():
     body {
         font-family: 'EB Garamond', serif;
         font-size: 20px;
-        color: black;
     }
     h2 {
         font-family: 'EB Garamond', serif;
         font-size: 26px;
-        color: black;
     }
     h3 {
         font-family: 'EB Garamond', serif;
         font-size: 22px;
-        color: black;
     }
     div.st-emotion-cache-0.e1f1d6gn0 {
         background-color: #EEEEEE;

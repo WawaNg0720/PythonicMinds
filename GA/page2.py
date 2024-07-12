@@ -13,18 +13,15 @@ def page2():
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
     body {
         font-family: 'EB Garamond', serif;
-        font-size: 20px;
-        color: black;
+        font-size: 20px;     
     }
     h2 {
         font-family: 'EB Garamond', serif;
         font-size: 26px;
-        color: black;
     }
     h3 {
         font-family: 'EB Garamond', serif;
         font-size: 22px;
-        color: black;
     }
     div.st-emotion-cache-ocqkz7.e1f1d6gn5 {
         background-color: #EEEEEE;
