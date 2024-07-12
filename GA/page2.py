@@ -4,7 +4,7 @@ import plotly.express as px
 
 def page2():
     # Load dataset
-    df = pd.read_csv('C:/Users/ngwaw/OneDrive/Desktop/SEM 4/SQIT3073/PythonicMinds/GA/MalaysiaExports.csv')
+    df = pd.read_csv('GA/MalaysiaExports.csv')
 
     # Header and styles
     st.markdown("<h1 style='text-align: center; color: black;'>Future Horizons: Predicting Malaysia's Export Trends with ARIMA</h1>", unsafe_allow_html=True)

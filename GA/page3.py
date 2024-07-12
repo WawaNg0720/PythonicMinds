@@ -227,7 +227,7 @@ def page3():
     st.write(
         "This section allows user to analyze and forecast export data using ARIMA models. Select the column to forecast and set the forecast parameters.")
     
-    file_path = 'C:/Users/ngwaw/OneDrive/Desktop/SEM 4/SQIT3073/PythonicMinds/GA/MalaysiaExports.csv'
+    file_path = 'GA/MalaysiaExports.csv'
 
     df = load_data(file_path)
     if df is not None:
