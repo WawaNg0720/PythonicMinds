@@ -33,7 +33,7 @@ background_image = """
 st.markdown(background_image, unsafe_allow_html=True)
 
 def main():
-    st.image("PM.png")
+    st.image("GA/PM.png")
     
     # Use streamlit-option-menu for navigation
     with st.sidebar:
@@ -43,7 +43,7 @@ def main():
             menu_icon="cast", default_index=0
         )
     
-    st.sidebar.image("m3.png")
+    st.sidebar.image("GA/m3.png")
 
     if selection == "Overview":
         p1.page1()
