@@ -33,7 +33,7 @@ background_image = """
 st.markdown(background_image, unsafe_allow_html=True)
 
 def main():
-    st.image("GA/PM.png")
+    st.logo("GA/PM.png")
     
     # Use streamlit-option-menu for navigation
     with st.sidebar:
